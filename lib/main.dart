@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'main_appbar.dart';
+import 'main_listview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,14 +28,19 @@ class YoutubeCloneApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
       child: Scaffold(
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(60),
           child: MainAppbar(),
         ),
-        body: Center(),
-
+        body: Column(
+          children: [
+            Expanded(
+              child: MainListView(),
+            )
+          ],
+        ),
       ),
     );
   }
