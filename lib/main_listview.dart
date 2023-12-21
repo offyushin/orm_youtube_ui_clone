@@ -15,6 +15,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -29,6 +32,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -43,6 +49,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -57,6 +66,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -71,6 +83,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -85,6 +100,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -99,6 +117,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -113,6 +134,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -127,6 +151,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -141,6 +168,9 @@ class MainListView extends StatelessWidget {
           color: Colors.white,
         ),
         ListTile(
+          leading: CircleAvatar(
+            backgroundImage: AssetImage('assets/channels_profile1.jpg'),
+          ),
           title: Text(
             '플리플플플레이리스트',
             style: TextStyle(fontWeight: FontWeight.bold),
