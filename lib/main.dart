@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:orm_youtube_ui_clone/main_bottom.dart';
 
 import 'main_appbar.dart';
 import 'main_listview.dart';
@@ -41,6 +42,7 @@ class YoutubeCloneApp extends StatelessWidget {
             )
           ],
         ),
+        bottomNavigationBar: MyBottomNavigationBar(),
       ),
     );
   }
