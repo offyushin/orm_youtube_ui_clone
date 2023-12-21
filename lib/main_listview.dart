@@ -12,8 +12,27 @@ class MainListView extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             height: 300,
-            child: Image(image: AssetImage('assets/videoimage1.jpg')),
-          )
+            child: Image(image: AssetImage('assets/videoimage1.jpg'),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 300,
+            child: Image(image: AssetImage('assets/videoimage1.jpg'),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 300,
+            child: Image(image: AssetImage('assets/videoimage1.jpg'),
+            ),
+          ),
+          Container(
+            width: double.infinity,
+            height: 300,
+            child: Image(image: AssetImage('assets/videoimage1.jpg'),
+            ),
+          ),
         ],
       ),
     );
