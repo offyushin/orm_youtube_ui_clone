@@ -39,8 +39,13 @@ class MyBottomNavigationBar extends StatelessWidget {
             label: '보관함'),
       ],
       selectedItemColor: Colors.white,
+      // 얘만 있으면 home만 보임..
       unselectedItemColor: Colors.white,
-      type: BottomNavigationBarType.shifting,
+      // 얘도 추가하면 다 보임.. 이유는?
+      showSelectedLabels: true,
+      // 얘도 마찬가지로 home만 보임;;;
+      showUnselectedLabels: true,
+      // 이거 추가하면 다 보임......
     );
   }
 }
